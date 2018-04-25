@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Browseride</title>
+<link rel="stylesheet" href="styleHome.css">
+<script src="jquery-3.2.1.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="ace-builds/src-noconflict/ace.js" type="text/javascript" charset="utf-8"></script>
+<script src="ForerunnerDB/js/dist/fdb-all.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<script src="webWorkerRigged.js" type="text/javascript" charset="utf-8"></script>
+<div id="titleHeader">
+  JaScEdit { }
+  <div id="titleDesc">
+    the little, innocuous javascript editor
+  </div>
+</div>
+<div id="editor">
+</div>
+<div id="instructions">
+  <table id="instructionTable">
+    <tr>
+      <td> Run File, press </td>
+      <td> Ctrl + Enter </td>
+    </tr>
+    <tr>
+      <td> Insert console.log </td>
+      <td> Ctrl + q </td>
+    </tr>
+    <tr>
+      <td> Save File to Disk </td>
+      <td> Ctrl + b </td>
+    </tr>
+  </table>
+  <hr style="height:1px;border:none;color:#555;background-color:#444;" />
+</div>
+<div id="output">
+  <span id="outputTitle">
+    consoleOutput >>
+  </span>
+  <br>
+  <br>
+  <span id="outputContent">
+  </span>
+</div>
+
+
+<script src="initResources.js" type="text/javascript"></script>
+<script src="runIDE.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>

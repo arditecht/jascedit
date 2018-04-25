@@ -1,0 +1,79 @@
+body {
+  background-color: #222;
+  overflow: hidden;
+}
+
+#titleHeader {
+  height: 70px;
+  width: 100%;
+  background-color: #333;
+  font-size: 42px;
+  color: white;
+  display: block;
+  padding: 20px;
+  padding-left: 50px;
+  margin-left: -10px;
+}
+
+#titleDesc {
+  font-size: 14px;
+}
+
+#editor {
+  width: 1400px;
+  height: 852px;
+  border: 0.5px solid #555;
+  margin-top: 10px;
+}
+
+#output {
+  width: 472px;
+  height: 753.5px;
+  background-color: #2b2b2b;
+  position: absolute;
+  top: 228px;
+  left: 1419px;
+  overflow: auto;
+  padding-left: 20px;
+}
+
+#outputTitle {
+  color: #bbb;
+  background-color: #232323;
+  font-size: large;
+  padding: 7px;
+  border-bottom: 1px solid grey;
+  margin-left: -10px;
+}
+
+#outputContent {
+  color: #ccc;
+  font-size: large;
+  font-family: monospace;
+  overflow: auto;
+  margin-right: 10px;
+}
+
+#instructions {
+  width: 492px;
+  height: 750px;
+  background-color: #222326;
+  position: absolute;
+  top: 120px;
+  left: 1419px;
+  color: #aaa;
+}
+
+#instructionTable {
+  padding-top: 7px;
+  padding-right: 10px;
+}
+
+#instructionTable td{
+  padding: 5px;
+  padding-right: 17px;
+}
+
+.blinker {
+  color: #888;
+}
